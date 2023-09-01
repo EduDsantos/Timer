@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(52, 62, 120);
+}
+
+div{
+    text-align: center;
+}
+
+main{
+    padding-top: 10px;
+    background-color: white;
+    width: 15em;
+    height:10em;
+    margin: auto;
+    border-radius: 1em;
+}
+
+
+input{
+    width: 5em;
+    height: 2.5em;
+    border-radius: 10px;
+}
+
+#play{
+    background-color: lightgreen;
+}
+
+#pause{
+    background-color:lightcoral;
+}
+
+#reset{
+    background-color: lightpink;
+}
