@@ -10,7 +10,7 @@ let inter;
 function play(){
     
     if(!inter){
-        inter = setInterval(timer,1);
+        inter = setInterval(timer,1000);
     }
 }
 
