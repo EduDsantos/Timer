@@ -21,11 +21,13 @@ function pause(){
 }
 
 function reset(){
-    clearInterval(inter);
+    console.log(  clearInterval(inter));
     seg=0;
     min=0;
     hour=0;
     zero.innerHTML = "00:00:00";
+    inter=null;
+
     
 }
 
