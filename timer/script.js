@@ -21,7 +21,7 @@ function pause(){
 }
 
 function reset(){
-    console.log(  clearInterval(inter));
+    clearInterval(inter);
     seg=0;
     min=0;
     hour=0;
