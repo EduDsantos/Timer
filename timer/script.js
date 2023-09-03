@@ -8,12 +8,15 @@ let inter;
 
 
 function play(){
-    inter = setInterval(timer,1);
-
+    
+    if(!inter){
+        inter = setInterval(timer,1);
+    }
 }
 
 function pause(){
      clearInterval(inter);
+     inter=null;
     
 }
 
